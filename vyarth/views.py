@@ -23,7 +23,7 @@ class GenView(CreateView):
     model = SubmitWaste
     form_class= forms.SubmitWasteForm
     success_url = reverse_lazy("home")
-    template_name = "SignupG.html"
+    template_name = "signupG.html"
     #success_url
     #template_name='thankyou.html'
 
